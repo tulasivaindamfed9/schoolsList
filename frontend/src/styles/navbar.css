@@ -1,0 +1,19 @@
+.navbar {
+  background: #057ef7 !important; /* very light gray */
+  border-bottom: 1px solid #e5e7eb;
+  margin-bottom: 20px;
+}
+
+.navbar-brand {
+  color: #f6f6f7 !important; /* nice blue */
+  font-weight: 600;
+}
+
+.nav-link {
+  color: #f1f4f8 !important; /* dark gray */
+  font-weight: 500;
+}
+
+.nav-link.active {
+  color: #5c6d91 !important; /* active link in blue */
+}

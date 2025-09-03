@@ -1,0 +1,36 @@
+.form-container {
+  max-width: 720px;
+  background: #fdfdfd; /* clean white */
+  border: 1px solid #e6e6e6; /* light gray border */
+  border-radius: 10px;
+  padding: 25px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05); /* soft shadow */
+}
+
+.school-form label {
+  font-weight: 600;
+  color: #374151; /* dark gray text */
+}
+
+.form-control {
+  border: 1px solid #d1d5db; /* light gray input border */
+  border-radius: 8px;
+}
+
+.form-control:focus {
+  border-color: #60a5fa; /* soft blue focus */
+  box-shadow: 0 0 0 0.15rem rgba(96, 165, 250, 0.3);
+}
+
+button.btn-primary {
+  background-color: #0bc565; /* soft sky blue */
+  border: none;
+  border-radius: 8px;
+  padding: 10px 18px;
+  font-weight: 500;
+  transition: background 0.3s ease;
+}
+
+button.btn-primary:hover {
+  background-color: #3b82f6; /* slightly darker blue */
+}

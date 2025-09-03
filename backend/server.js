@@ -31,6 +31,8 @@ app.use(
 // routes
 app.use("/api/schools", schoolRoutes);
 
+app.listen(5000, () => console.log("Server running on port 5000"));
+
 // connect DB then start server
 const PORT = process.env.PORT || 5000;
 mongoose
